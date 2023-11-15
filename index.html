@@ -1,0 +1,179 @@
+<html>
+<head>
+    <title>First page</title>
+    <link rel="stylesheet" href="/Project/firstpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    
+
+
+<style>
+    *
+{
+    margin:0px;
+    padding: 0px;
+}
+.slider
+{
+    height: 100vh;
+    margin-top:10px;
+    background-image:url(back.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+.nav_bar
+{
+    display: flex;
+    margin-top:10px;
+
+}
+
+
+.nav_links
+{
+
+    margin-left:300px;
+    flex:0px;
+}
+.nav_links ul{
+    margin-left:800px;
+    display: inline;
+  
+}
+.nav_links ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left:6px;
+    padding-right: 6px;
+    font-size:25px;
+    font-family:'Times New Roman', Times, serif;
+    color:black;
+    background-color: darkgray;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.nav_links ul a
+{
+    color:black;
+    text-decoration:dotted;
+
+}
+.nav_links ul li::after{
+    content: '';
+    width: 0px;;
+    height:3px;
+    background:rgb(223, 220, 220);
+    display:block;
+    margin:auto;
+    transition: .5s;
+}
+.nav_links ul li:hover::after{
+width:100%;
+}
+.title
+{
+    margin-top:100px;
+    margin-left:200px;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.title h1 span{
+    color:rgb(93, 100, 24);
+}
+
+.social-menu ul {
+    position: relative;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+.social-menu ul li .fa {
+    color: #000000;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+} 
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+} 
+</style>
+
+</head>
+<body>
+    <div>
+       
+    </div>
+<div class="slider">
+    <div class="nav_logo">
+        <img src="SSlogo.jpg" width=50px style="float:left" title="logo">
+                <h2 style="float:left;font-style:italic">Smart Service</h2>
+    </div>
+    <div class="nav_links">
+        <ul>
+            <a href="signup.php"><li>Signup</li></a>
+            <a href="login.php"><li>Login</li></a>
+            <a href="Whyus.html"><li>Whyus?</li></a>
+        </ul>
+    </div>
+
+    <div class="title">
+        <h1>Smart Service,<br><span>Weekends aren't</span> meant for cleaning...</h1>
+        <h2>For More Details,follow our social media accounts....</h2>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <div>
+        <h1>Our Social Media accounts:
+    </div>
+  <div class="social-menu">
+    <ul>
+      <li><a href="https://www.facebook.com/groups/320404646077639/"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fmwcleanservice"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/firstclasscleaningfla/?hl=en"><i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://youtu.be/fyI410zm2_A"><i class="fa fa-youtube"></i></a></li>
+    </ul>
+  </div> 
+</div>
+</body>
+</html>
